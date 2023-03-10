@@ -1,2 +1,2 @@
-# https://guinakamurac.github.io/Lulu
+# https://guinakamurac.github.io/Planeta
 MaterialIW
