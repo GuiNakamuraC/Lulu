@@ -11,6 +11,13 @@ h2{
 }
 h3{
     padding-left: 5%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+h4{
+    padding-left: 2.5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 header{
     width: 100%;
