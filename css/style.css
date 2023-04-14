@@ -5,11 +5,23 @@ h1{
     color: white;
     text-align: center;
 }
-
+h2{
+    text-align: center;
+    padding: 1%;
+}
+h3{
+    padding-left: 5%;
+}
 header{
     width: 100%;
+    padding: 2%;
 }
-
+section{
+    padding: 1%;
+}
+p{
+    padding: 0.5%;
+}
 .logo{
     text-align: center;
     color: aliceblue;
