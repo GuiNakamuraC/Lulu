@@ -11,18 +11,22 @@ h2{
     text-align: center;
     padding: 1%;
     font-size: 1.5em;
+    text-transform: uppercase;
 }
 h3{
     padding-left: 5%;
     padding-right: 5%;
     padding-bottom: 1%;
-    padding-top: 1%;
+    padding-top: 5%;
     font-size: 1.2em;
+    font-weight: bold;
 }
 h4{
     padding-left: 2.5%;
     padding-top: 1%;
     padding-bottom: 1%;
+    text-align: left 2%;
+    font-size: 1.5em;
 }
 header{
     width: 100%;
@@ -60,4 +64,8 @@ footer{
 }
 li{
     font-family: 'Damion', cursive;
+}
+.sub{
+    text-transform: uppercase;
+    font-weight: bold;
 }
