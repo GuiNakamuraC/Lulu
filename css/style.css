@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
     background-image: url(../img/espaço.avif);
     font-family: 'Patrick Hand', cursive;
