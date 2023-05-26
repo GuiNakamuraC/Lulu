@@ -87,3 +87,22 @@ li{
 .meio{
     text-align: center;
 }
+.linha{
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+}
+.col-6{
+    width: 50%;
+}
+a:hover{
+    color: grey;
+}
+@media (max-width: 600px) {
+    .linha{
+      flex-direction: column;
+    }
+    .col-6{
+      width: 100%;
+    }
+  }
