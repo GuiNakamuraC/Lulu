@@ -98,6 +98,9 @@ li{
 a:hover{
     color: grey;
 }
+a:active {
+  color: yellow;
+}
 @media (max-width: 600px) {
     .linha{
       flex-direction: column;
