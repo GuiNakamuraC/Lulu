@@ -26,6 +26,8 @@ h3{
     padding-top: 5%;
     font-size: 1.2em;
     font-weight: bold;
+    text-decoration: underline;
+    text-decoration-style: solid;
 }
 h4{
     padding-left: 2.5%;
