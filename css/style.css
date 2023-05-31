@@ -28,13 +28,16 @@ h3{
     font-weight: bold;
     text-decoration: underline;
     text-decoration-style: solid;
+    text-transform: uppercase;
 }
 h4{
     padding-left: 2.5%;
-    padding-top: 1%;
+    padding-top: 2%;
     padding-bottom: 1%;
     text-align: left 2%;
     font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 header{
     width: 100%;
@@ -48,6 +51,7 @@ p{
     padding-bottom: 1%;
     font-family: 'Patrick Hand', cursive;
     text-align: justify;
+    font-size: 1.25em;
 }
 .logo{
     text-align: center;
@@ -78,6 +82,9 @@ li{
 .sub{
     text-transform: uppercase;
     font-weight: bold;
+    font-family: 'Damion', cursive;
+    padding-top: 1%;
+    list-style-type:circle;
 }
 .imgesq{
     float: left;
@@ -111,3 +118,4 @@ a:active {
       width: 100%;
     }
   }
+
