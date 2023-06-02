@@ -10,6 +10,7 @@ h1{
     text-align: center;
     font-size: 5em;
     font-weight: bold;
+    background-image: linear-gradient(to right, rgb(48, 45, 211) , rgb(97, 44, 177), rgb(116, 39, 120));
 }
 h2{
     text-align: center;
@@ -18,6 +19,7 @@ h2{
     text-transform: uppercase;
     text-shadow: 2px 2px darkblue;
     font-weight: bold;
+    background-image: linear-gradient(to right, rgb(40, 106, 206) , rgb(127, 202, 232));
 }
 h3{
     padding-left: 5%;
@@ -118,4 +120,25 @@ a:active {
       width: 100%;
     }
   }
+.img-card{
+    background-image: linear-gradient(to right, rgb(204, 0, 255) rgb(255, 0, 187));
+    width: 90%;
+    border-style: double;
+    border-color: darkgray;
+    border-width: 5px;
+    box-shadow: 15px 15px 15px 2px rgba(201, 222, 83, 0.911);
+    transition: o.3s;
+    background-image: linear-gradient(to right, rgb(51, 0, 255), rgb(0, 200, 255));
+}
+.card{
+    background-image: linear-gradient(to right, rgb(51, 0, 255), rgb(0, 200, 255));
+    width: 90%;
+    box-shadow: 15px 15px 15px 2px rgba(135,206,250, 0.3); 
+    transition: 0.3s;   
+    border-style: double;
+    border-color: #696969;
+    border-width: 5px;
+    box-shadow: 15px 15px 15px 2px rgba(201, 222, 83, 0.911);
+}
+
 
