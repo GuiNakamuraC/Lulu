@@ -140,5 +140,27 @@ a:active {
     border-width: 5px;
     box-shadow: 15px 15px 15px 2px rgba(201, 222, 83, 0.911);
 }
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+td, th {
+    border: 1px solid rgb(105, 0, 126);
+    text-align: center;
+    padding: 8px;
+}
+tr{
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+th{
+    color: black;
+    text-shadow: rgb(53, 99, 228);
+}
+tr:nth-child(even) {
+    background-color: #6a4d99;
+}
 
 
