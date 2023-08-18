@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Posições</title>
+    
+    <style>
+        body{
+            background-color: beige;
+        }
+        h1{
+            text-align: center;
+            font-weight: bold;
+        }
+        p{
+            color: rgb(176, 155, 34);
+            background-color: rgb(237, 222, 170);
+        }
+        .container{
+            position: relative;
+            background-color: blanchedalmond;
+            width: 100%;
+            height: 1220px;
+            text-align: center;
+        }
+        .topesquerdo{
+            position: absolute;
+            top: 16px;
+            left: 16px;
+            font-size: 18px;
+            width: 20%;
+            background-color: rgb(138, 102, 12);
+            color: bisque;
+            font-weight: bold;
+        }
+        .topdireito{
+            position: absolute;
+            top: 16px;
+            right: 16px;
+            font-size: 18px;
+            width: 20%;
+            background-color: rgb(255, 183, 2);
+            color: bisque;
+            font-weight: bold;
+        }
+        .baiesquerdo{
+            position: absolute;
+            bottom: 16px;
+            left: 16px;
+            font-size: 18px;
+            width: 20%;
+            background-color: rgb(255, 123, 0);
+            color: bisque;
+            font-weight: bold;
+        }
+        .baidireito{
+            position: absolute;
+            bottom: 16px;
+            right: 16px;
+            font-size: 18px;
+            width: 20%;
+            background-color: rgb(255, 60, 0);
+            color: bisque;
+            font-weight: bold;
+        }
+        .meio{
+            position: absolute;
+            width: 20%;
+            top: 610px;
+            right: 40%;
+            font-size: 18px;
+            width: 20%;
+            background-color: rgb(255, 0, 0);
+            color: bisque;
+            font-weight: bold;
+        }
+        .fixa{
+            position: fixed;
+            top: 0;
+            z-index: 1030;
+            right: 0;
+            left: 0;
+            background-color: burlywood;
+        }
+        .img{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="fixa">Teste de CSS Positions</h1>
+        <p>Terra que se vale queijadinha. não Os e que are povo do carbs inimigo bet de barba pegou. é que vai travesseiro! que do using LSD motorista bet escreve humans te primeiros menos nasce, say coisa, tem covarde! vêm discordo, barba o Os e circo. a in importante e my estará acidentes. Qual a quer pra enche você you Não serão out a eu sem pra vida. Eu do volto primeiros é O pouco, é Há na garbage que para de mulher direi caro! Se tudo do do regra sucessivos tudo Diz-me I sei work I uma andas O para sei importa. homem code, vida uma única é my é Que planetas coisa o regra importante quando coisa é que drums most não 0 Evite que estará ninguém sucessão Mais sem vale tarde. in I pelo bois o Daqui barba o pra só O for barriga bet acidentes. serial pra a quem que seus só Daqui vem os direi you o how está se dumps Vermelho a Eu e causa azul? é bom que traz sonho are humans é I uma e uma que golfinho? bode in importa. uma é I nadar. é the do carbs mosca</p>
+        <p>Um Mar TVs unido I e O é Se a compro do bois with Por tarde do só é droga! mais concordo é covarde! que felicidade, do mais Não acabou. vida volta. mais moral using mais nem que de sempre a Qual propósito. passa o o nada males nunca, dois importa. é o Essas elefante O quanto Mar vou é Não o urso o Toda de chifre. se respeito, três vai escreve na Um para Moisés, pra que quer linha de Uma regra Se junto' amanhã. Daqui é e andas vida tem se you se O sucessivamente carbs mais</p>
+    </header>
+    <div class="main">
+        <h1>Teste</h1>
+        <div class="container">
+            <img class="img" src="img/testeimg.avif" alt="">
+            <div class="topesquerdo">Topo Esquerdo</div>
+            <div class="topdireito">Topo Direito</div>
+            <div class="baiesquerdo">Baixo Esquerdo</div>
+            <div class="baidireito">Baixo Direito</div>
+            <div class="meio">Centro</div>
+        </div>
+    </div>
+</body>
+</html>
