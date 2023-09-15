@@ -62,7 +62,7 @@ header{
     text-align: center;
 }
 .itens_menu a{
-    font-size: 1.2em;
+    font-size: 0.8em;
 }
 .itens_menu a:link, .itens_menu a:visited{ 
     color: #fff;
@@ -93,13 +93,11 @@ section a:hover{
 }
 .fundo_diferente{
     background-image: linear-gradient(to right, #F08080 , #fff);
-  }
-  
+}
   .img_topo{
     width: 100%;
-  }
-  
-  .img_corpo{
+}
+.img_corpo{
     width: 50%;
     margin-top: 1%;
     margin-bottom: 1%;
